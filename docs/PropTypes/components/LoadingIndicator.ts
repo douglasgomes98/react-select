@@ -1,5 +1,5 @@
+import { GroupBase, LoadingIndicatorProps } from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { GroupBase, LoadingIndicatorProps } from 'react-select';
 
 export default class LoadingIndicator<
   Option,

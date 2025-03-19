@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Select, { components, MenuProps } from 'react-select';
+import Select, { components, MenuProps } from '@douglasgomes98/react-select';
 import {
   ColourOption,
   colourOptions,

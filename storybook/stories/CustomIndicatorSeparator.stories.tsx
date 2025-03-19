@@ -1,6 +1,6 @@
+import Select, { IndicatorSeparatorProps } from '@douglasgomes98/react-select';
 import type { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import Select, { IndicatorSeparatorProps } from 'react-select';
 
 import { Field } from '../components';
 import { ColourOption, colourOptions } from '../data';

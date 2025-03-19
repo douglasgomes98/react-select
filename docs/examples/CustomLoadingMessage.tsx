@@ -1,7 +1,7 @@
-import React, { CSSProperties } from 'react';
 import Tooltip from '@atlaskit/tooltip';
-import AsyncSelect from 'react-select/async';
-import { NoticeProps } from 'react-select';
+import { NoticeProps } from '@douglasgomes98/react-select';
+import AsyncSelect from '@douglasgomes98/react-select/async';
+import React, { CSSProperties } from 'react';
 import { ColourOption, colourOptions } from '../data';
 
 const LoadingMessage = (props: NoticeProps<ColourOption, false>) => {

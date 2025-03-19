@@ -1,5 +1,5 @@
+import Select, { InputActionMeta } from '@douglasgomes98/react-select';
 import React from 'react';
-import Select, { InputActionMeta } from 'react-select';
 import { colourOptions } from '../data';
 
 export default () => {

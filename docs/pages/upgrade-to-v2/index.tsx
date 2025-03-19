@@ -247,7 +247,7 @@ that implements the same options previously available as props to react-select.
 For example:
 
 ~~~js
-import Select, { createFilter } from 'react-select';
+import Select, { createFilter } from '@douglasgomes98/react-select';
 
 const customFilter = createFilter({
   ignoreCase?: boolean,

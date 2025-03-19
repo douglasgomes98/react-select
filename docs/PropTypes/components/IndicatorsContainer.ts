@@ -1,5 +1,8 @@
+import {
+  GroupBase,
+  IndicatorsContainerProps,
+} from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { GroupBase, IndicatorsContainerProps } from 'react-select';
 
 export default class IndicatorsContainer<
   Option,

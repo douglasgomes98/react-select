@@ -1,32 +1,32 @@
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 
-import md from '../../markdown/renderer';
 import ExampleWrapper from '../../ExampleWrapper';
 import {
-  CustomSelectProps,
   CustomClearIndicator,
+  CustomControl,
   CustomDropdownIndicator,
-  CustomLoadingIndicator,
-  CustomLoadingMessage,
+  CustomGroup,
+  CustomGroupHeading,
   CustomIndicatorsContainer,
   CustomIndicatorSeparator,
-  CustomNoOptionsMessage,
-  CustomMultiValueContainer,
-  CustomMultiValueRemove,
-  CustomMultiValueLabel,
-  CustomControl,
-  CustomGroup,
   CustomInput,
-  CustomOption,
+  CustomLoadingIndicator,
+  CustomLoadingMessage,
   CustomMenu,
   CustomMenuList,
+  CustomMultiValueContainer,
+  CustomMultiValueLabel,
+  CustomMultiValueRemove,
+  CustomNoOptionsMessage,
+  CustomOption,
   CustomPlaceholder,
   CustomSelectContainer,
+  CustomSelectProps,
   CustomSingleValue,
-  CustomGroupHeading,
   CustomValueContainer,
 } from '../../examples';
+import md from '../../markdown/renderer';
 
 export default function Components() {
   return (
@@ -111,7 +111,7 @@ export default function Components() {
 
         ~~~jsx
         import React from 'react';
-        import Select from 'react-select';
+        import Select from '@douglasgomes98/react-select';
 
         const CustomOption = ({ innerProps, isDisabled }) =>
           !isDisabled ? (

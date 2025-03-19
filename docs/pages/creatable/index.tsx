@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Helmet from 'react-helmet';
-import md from '../../markdown/renderer';
 import ExampleWrapper from '../../ExampleWrapper';
+import md from '../../markdown/renderer';
 
 import {
   AsyncCreatable,
@@ -25,7 +25,7 @@ export default function Creatable() {
       # Creatable
 
       ~~~jsx
-      import Creatable, { useCreatable } from 'react-select/creatable';
+      import Creatable, { useCreatable } from '@douglasgomes98/react-select/creatable';
       ~~~
 
       For the prop definition, please see the API docs [here](/props)

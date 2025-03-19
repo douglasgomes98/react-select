@@ -1,5 +1,8 @@
+import Select, {
+  components,
+  IndicatorsContainerProps,
+} from '@douglasgomes98/react-select';
 import React from 'react';
-import Select, { components, IndicatorsContainerProps } from 'react-select';
 import { ColourOption, colourOptions } from '../data';
 
 const IndicatorsContainer = (

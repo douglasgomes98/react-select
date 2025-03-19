@@ -1,6 +1,9 @@
+import Select, {
+  components,
+  MenuListProps,
+} from '@douglasgomes98/react-select';
 import type { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import Select, { components, MenuListProps } from 'react-select';
 
 import { Field } from '../components';
 import {

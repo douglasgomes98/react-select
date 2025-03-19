@@ -1,12 +1,12 @@
-import type { ComponentMeta } from '@storybook/react';
-import * as React from 'react';
 import Select, {
   components,
   MultiValueGenericProps,
   MultiValueProps,
   OnChangeValue,
   Props,
-} from 'react-select';
+} from '@douglasgomes98/react-select';
+import type { ComponentMeta } from '@storybook/react';
+import * as React from 'react';
 import {
   SortableContainer,
   SortableContainerProps,

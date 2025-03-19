@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 
-import Select, { ActionMeta, OnChangeValue, StylesConfig } from 'react-select';
+import Select, {
+  ActionMeta,
+  OnChangeValue,
+  StylesConfig,
+} from '@douglasgomes98/react-select';
 import { ColourOption, colourOptions } from '../data';
 
 const styles: StylesConfig<ColourOption, true> = {

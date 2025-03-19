@@ -1,13 +1,13 @@
 /** @jsx jsx */
-import { Component, FunctionComponent, MouseEvent, RefCallback } from 'react';
 import { jsx } from '@emotion/react';
+import { Component, FunctionComponent, MouseEvent, RefCallback } from 'react';
 import { Route, RouteComponentProps, Switch } from 'react-router-dom';
 
-import { animatedScrollTo } from 'react-select/src/utils';
+import { animatedScrollTo } from '@douglasgomes98/react-select/src/utils';
+import store, { Data } from '../markdown/store';
 import routes from './routes';
 import ScrollSpy from './ScrollSpy';
 import Sticky from './Sticky';
-import store, { Data } from '../markdown/store';
 
 const navWidth = 180;
 const appGutter = 20;

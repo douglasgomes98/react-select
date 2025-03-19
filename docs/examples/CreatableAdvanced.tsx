@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import CreatableSelect from 'react-select/creatable';
+import CreatableSelect from '@douglasgomes98/react-select/creatable';
 
 interface Option {
   readonly label: string;

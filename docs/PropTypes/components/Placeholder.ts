@@ -1,5 +1,5 @@
+import { GroupBase, PlaceholderProps } from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { GroupBase, PlaceholderProps } from 'react-select';
 
 export default class Placeholder<
   Option,

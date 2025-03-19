@@ -1,5 +1,8 @@
+import {
+  GroupBase,
+  MultiValueGenericProps,
+} from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { GroupBase, MultiValueGenericProps } from 'react-select';
 
 export default class MultiValueRemove<
   Option,

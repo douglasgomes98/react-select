@@ -1,6 +1,6 @@
-import React from 'react';
 import Tooltip from '@atlaskit/tooltip';
-import Select, { components, NoticeProps } from 'react-select';
+import Select, { components, NoticeProps } from '@douglasgomes98/react-select';
+import React from 'react';
 import { colourOptions } from '../data';
 
 const msgStyles = {

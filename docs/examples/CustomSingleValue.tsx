@@ -1,5 +1,8 @@
+import Select, {
+  components,
+  SingleValueProps,
+} from '@douglasgomes98/react-select';
 import React from 'react';
-import Select, { components, SingleValueProps } from 'react-select';
 import { ColourOption, colourOptions } from '../data';
 
 const SingleValue = ({

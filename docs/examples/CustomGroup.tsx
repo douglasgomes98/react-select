@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Select, { components, GroupProps } from 'react-select';
+import Select, { components, GroupProps } from '@douglasgomes98/react-select';
 import {
   ColourOption,
   colourOptions,

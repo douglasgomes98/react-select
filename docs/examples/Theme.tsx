@@ -1,7 +1,7 @@
 import React from 'react';
 
+import Select from '@douglasgomes98/react-select';
 import { flavourOptions } from '../data';
-import Select from 'react-select';
 
 export default () => (
   <Select

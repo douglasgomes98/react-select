@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Select from 'react-select';
+import Select from '@douglasgomes98/react-select';
 import { colourOptions } from '../data';
 
 const Checkbox = ({ children, ...props }: JSX.IntrinsicElements['input']) => (

@@ -1,5 +1,8 @@
+import Select, {
+  components,
+  ValueContainerProps,
+} from '@douglasgomes98/react-select';
 import React from 'react';
-import Select, { components, ValueContainerProps } from 'react-select';
 import { ColourOption, colourOptions } from '../data';
 
 const ValueContainer = ({

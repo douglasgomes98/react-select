@@ -1,6 +1,10 @@
+import Select, {
+  ActionMeta,
+  OnChangeValue,
+  StylesConfig,
+} from '@douglasgomes98/react-select';
 import { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import Select, { ActionMeta, OnChangeValue, StylesConfig } from 'react-select';
 import { Field } from '../components';
 
 import { ColourOption, colourOptions } from '../data';

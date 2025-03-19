@@ -1,7 +1,7 @@
+import type { SelectInstance } from '@douglasgomes98/react-select';
+import CreatableSelect from '@douglasgomes98/react-select/creatable';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import * as React from 'react';
-import type { SelectInstance } from 'react-select';
-import CreatableSelect from 'react-select/creatable';
 
 import { Field } from '../components';
 import { defaultArgs } from '../data';

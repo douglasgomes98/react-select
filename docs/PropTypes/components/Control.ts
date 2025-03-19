@@ -1,5 +1,5 @@
+import { ControlProps, GroupBase } from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { ControlProps, GroupBase } from 'react-select';
 
 export default class Control<
   Option,

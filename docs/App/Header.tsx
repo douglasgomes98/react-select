@@ -1,13 +1,13 @@
 /** @jsx jsx */
-import fetch from 'unfetch';
-import { Component, Ref, RefCallback } from 'react';
 import { jsx } from '@emotion/react';
+import { Component, Ref, RefCallback } from 'react';
 import { RouteComponentProps, withRouter } from 'react-router-dom';
+import fetch from 'unfetch';
 
-import Select, { StylesConfig } from 'react-select';
+import Select, { StylesConfig } from '@douglasgomes98/react-select';
+import isArray from '../isArray';
 import GitHubButton from './GitHubButton';
 import TwitterButton from './TwitterButton';
-import isArray from '../isArray';
 
 const smallDevice = '@media (max-width: 769px)';
 const largeDevice = '@media (min-width: 770px)';

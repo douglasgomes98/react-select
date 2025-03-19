@@ -1,5 +1,5 @@
+import { GroupBase, ValueContainerProps } from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { GroupBase, ValueContainerProps } from 'react-select';
 
 export default class ValueContainer<
   Option,

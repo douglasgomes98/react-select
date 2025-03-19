@@ -1,8 +1,8 @@
-import React from 'react';
 import chroma from 'chroma-js';
+import React from 'react';
 
+import Select, { StylesConfig } from '@douglasgomes98/react-select';
 import { ColourOption, colourOptions } from '../data';
-import Select, { StylesConfig } from 'react-select';
 
 const colourStyles: StylesConfig<ColourOption, true> = {
   control: (styles) => ({ ...styles, backgroundColor: 'white' }),

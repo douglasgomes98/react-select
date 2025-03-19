@@ -1,6 +1,6 @@
 /** @jsx jsx */
+import Select, { OptionProps } from '@douglasgomes98/react-select';
 import { jsx } from '@emotion/react';
-import Select, { OptionProps } from 'react-select';
 import { ColourOption, colourOptions } from '../data';
 
 const Option = (props: OptionProps<ColourOption>) => {

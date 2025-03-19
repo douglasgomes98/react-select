@@ -1,17 +1,17 @@
 /** @jsx jsx */
-import React, { Fragment } from 'react';
+import { defaultTheme } from '@douglasgomes98/react-select';
 import { jsx } from '@emotion/react';
+import { Fragment } from 'react';
 import Helmet from 'react-helmet';
-import md from '../../markdown/renderer';
 import ExampleWrapper from '../../ExampleWrapper';
 import {
-  StyledSingle,
-  StyledMulti,
-  Theme,
   StyleCompositionExample,
+  StyledMulti,
+  StyledSingle,
+  Theme,
 } from '../../examples';
+import md from '../../markdown/renderer';
 import { ColorSample } from '../../styled-components';
-import { defaultTheme } from 'react-select';
 
 export default function Styles() {
   return (

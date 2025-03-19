@@ -1,15 +1,15 @@
 /** @jsx jsx */
-import { useState } from 'react';
 import { jsx } from '@emotion/react';
 import { CSSObject } from '@emotion/serialize';
-import moment, { Moment } from 'moment';
 import * as chrono from 'chrono-node';
+import moment, { Moment } from 'moment';
+import { useState } from 'react';
 
 import Select, {
   GroupProps,
   OptionProps,
   components as SelectComponents,
-} from 'react-select';
+} from '@douglasgomes98/react-select';
 
 interface DateOption {
   date: Moment;

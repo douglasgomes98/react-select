@@ -1,6 +1,9 @@
-import React from 'react';
 import Tooltip from '@atlaskit/tooltip';
-import Select, { components, MultiValueGenericProps } from 'react-select';
+import Select, {
+  components,
+  MultiValueGenericProps,
+} from '@douglasgomes98/react-select';
+import React from 'react';
 import { ColourOption, colourOptions } from '../data';
 
 const MultiValueLabel = (props: MultiValueGenericProps<ColourOption>) => {

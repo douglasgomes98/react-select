@@ -1,6 +1,6 @@
 import React, { CSSProperties, FunctionComponent } from 'react';
 
-import Select, { ClearIndicatorProps } from 'react-select';
+import Select, { ClearIndicatorProps } from '@douglasgomes98/react-select';
 import { CSSObject } from '@emotion/serialize';
 import { ColourOption, colourOptions } from '../data';
 

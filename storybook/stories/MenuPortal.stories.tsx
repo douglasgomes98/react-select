@@ -1,12 +1,12 @@
 import Button from '@atlaskit/button/standard-button';
 import Modal from '@atlaskit/modal-dialog';
-import type { ComponentMeta } from '@storybook/react';
-import * as React from 'react';
 import Select, {
   defaultTheme,
   MenuPlacement,
   StylesConfig,
-} from 'react-select';
+} from '@douglasgomes98/react-select';
+import type { ComponentMeta } from '@storybook/react';
+import * as React from 'react';
 
 import { ChevronDown, Field, Inline, Stack } from '../components';
 import { ColourOption, colourOptions } from '../data';

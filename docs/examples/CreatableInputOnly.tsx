@@ -1,6 +1,6 @@
 import React, { KeyboardEventHandler } from 'react';
 
-import CreatableSelect from 'react-select/creatable';
+import CreatableSelect from '@douglasgomes98/react-select/creatable';
 
 const components = {
   DropdownIndicator: null,

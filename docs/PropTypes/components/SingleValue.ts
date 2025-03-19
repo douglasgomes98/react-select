@@ -1,5 +1,5 @@
+import { GroupBase, SingleValueProps } from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { GroupBase, SingleValueProps } from 'react-select';
 
 export default class SingleValue<
   Option,

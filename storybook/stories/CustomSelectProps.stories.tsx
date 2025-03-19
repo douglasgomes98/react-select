@@ -1,11 +1,11 @@
-import type { ComponentMeta } from '@storybook/react';
-import * as React from 'react';
 import Select, {
   components,
   ControlProps,
   Props,
   StylesConfig,
-} from 'react-select';
+} from '@douglasgomes98/react-select';
+import type { ComponentMeta } from '@storybook/react';
+import * as React from 'react';
 import { Field } from '../components';
 import { ColourOption, colourOptions, EMOJIS } from '../data';
 

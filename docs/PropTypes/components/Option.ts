@@ -1,5 +1,5 @@
+import { GroupBase, OptionProps } from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { GroupBase, OptionProps } from 'react-select';
 
 export default class Option<
   Option,

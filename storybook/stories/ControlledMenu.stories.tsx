@@ -1,6 +1,9 @@
+import Select, {
+  SelectInstance,
+  StylesConfig,
+} from '@douglasgomes98/react-select';
 import type { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import Select, { SelectInstance, StylesConfig } from 'react-select';
 
 import { Field, Inline, Stack } from '../components';
 import { ColourOption, colourOptions } from '../data';
