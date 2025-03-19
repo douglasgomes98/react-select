@@ -1,6 +1,9 @@
-import React from 'react';
-import Select, { components, ContainerProps } from 'react-select';
 import Tooltip from '@atlaskit/tooltip';
+import Select, {
+  components,
+  ContainerProps,
+} from '@douglasgomes98/react-select';
+import React from 'react';
 import { ColourOption, colourOptions } from '../data';
 
 const SelectContainer = ({

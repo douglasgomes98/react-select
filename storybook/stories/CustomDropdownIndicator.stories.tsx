@@ -1,7 +1,10 @@
 import EmojiIcon from '@atlaskit/icon/glyph/emoji';
+import Select, {
+  components,
+  DropdownIndicatorProps,
+} from '@douglasgomes98/react-select';
 import type { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import Select, { components, DropdownIndicatorProps } from 'react-select';
 
 import { Field } from '../components';
 import { ColourOption, colourOptions } from '../data';

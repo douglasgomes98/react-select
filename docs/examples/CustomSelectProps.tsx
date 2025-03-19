@@ -1,10 +1,10 @@
-import React, { MouseEventHandler, useState } from 'react';
 import Select, {
   components,
   ControlProps,
   Props,
   StylesConfig,
-} from 'react-select';
+} from '@douglasgomes98/react-select';
+import React, { MouseEventHandler, useState } from 'react';
 import { ColourOption, colourOptions } from '../data';
 
 const EMOJIS = ['👍', '🤙', '👏', '👌', '🙌', '✌️', '🖖', '👐'];

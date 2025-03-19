@@ -1,14 +1,14 @@
 import EmojiIcon from '@atlaskit/icon/glyph/emoji';
 import Tooltip from '@atlaskit/tooltip';
-import type { ComponentMeta } from '@storybook/react';
-import * as React from 'react';
 import Select, {
   components,
   MultiValueRemoveProps,
   StylesConfig,
-} from 'react-select';
-import { ColourOption, colourOptions } from '../data';
+} from '@douglasgomes98/react-select';
+import type { ComponentMeta } from '@storybook/react';
+import * as React from 'react';
 import { Field } from '../components';
+import { ColourOption, colourOptions } from '../data';
 
 export default {
   title: 'Select/CustomMultiValueRemove',

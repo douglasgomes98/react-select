@@ -1,11 +1,11 @@
 import React, { Fragment, useRef } from 'react';
 
-import Select, { SelectInstance } from 'react-select';
-import AsyncSelect from 'react-select/async';
-import CreatableSelect from 'react-select/creatable';
+import Select, { SelectInstance } from '@douglasgomes98/react-select';
+import AsyncSelect from '@douglasgomes98/react-select/async';
+import CreatableSelect from '@douglasgomes98/react-select/creatable';
 
-import { Note } from '../styled-components';
 import { ColourOption, colourOptions } from '../data';
+import { Note } from '../styled-components';
 
 const filterColors = (inputValue: string) => {
   return colourOptions.filter((i) =>

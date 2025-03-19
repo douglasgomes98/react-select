@@ -1,10 +1,10 @@
-import { ComponentMeta } from '@storybook/react';
-import * as React from 'react';
 import Select, {
   components,
   SingleValueProps,
   StylesConfig,
-} from 'react-select';
+} from '@douglasgomes98/react-select';
+import { ComponentMeta } from '@storybook/react';
+import * as React from 'react';
 import { Field } from '../components';
 import { ColourOption, colourOptions } from '../data';
 

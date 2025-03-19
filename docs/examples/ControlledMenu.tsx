@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 
-import Select, { SelectInstance } from 'react-select';
+import Select, { SelectInstance } from '@douglasgomes98/react-select';
 import { colourOptions } from '../data';
 import { Note } from '../styled-components';
 

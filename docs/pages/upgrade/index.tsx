@@ -41,13 +41,13 @@ Here are the most notable changes when replacing \`@types/react-select\` with ou
 If you were previously importing a type from the \`src\` directory when using \`@types/react-select\`:
 
 ~~~jsx
-import { ... } from 'react-select/src/...';
+import { ... } from '@douglasgomes98/react-select/src/...';
 ~~~
 
 These should now be imported from the \`dist/declarations/src\` directory:
 
 ~~~jsx
-import { ... } from 'react-select/dist/declarations/src/...';
+import { ... } from '@douglasgomes98/react-select/dist/declarations/src/...';
 ~~~
 
 We export any types from the main entry point that we think might be useful to the user. If you are using a type that is not exported from the main entry point please open a PR or issue so that we can add it.
@@ -244,13 +244,13 @@ Where you’d previously import them as such
 Or as:
 
 ~~~jsx
-\timport Async from 'react-select/lib/Async'
+\timport Async from '@douglasgomes98/react-select/lib/Async'
 ~~~
 
 Now imports look like this:
 
 ~~~jsx
-\timport AsyncSelect from 'react-select/async'
+\timport AsyncSelect from '@douglasgomes98/react-select/async'
 ~~~
 
 This should have no bundle-size impact on react-select consumers currently leveraging tree-shaking. However for consumers who aren’t leveraging tree-shaking, this should help alleviate some of the bundle-weight.

@@ -1,6 +1,6 @@
 import React, { CSSProperties } from 'react';
 
-import Select from 'react-select';
+import Select from '@douglasgomes98/react-select';
 import {
   ColourOption,
   colourOptions,

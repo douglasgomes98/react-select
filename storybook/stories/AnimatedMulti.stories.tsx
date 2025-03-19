@@ -1,7 +1,7 @@
+import Select from '@douglasgomes98/react-select';
+import makeAnimated from '@douglasgomes98/react-select/animated';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import * as React from 'react';
-import Select from 'react-select';
-import makeAnimated from 'react-select/animated';
 
 import { Field } from '../components';
 import { colourOptions, defaultArgs } from '../data';

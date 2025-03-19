@@ -5,9 +5,9 @@ import React, {
   ReactElement,
 } from 'react';
 
-import Select, { components, OptionProps } from 'react-select';
+import Select, { components, OptionProps } from '@douglasgomes98/react-select';
 import md from '../../markdown/renderer';
-import { Table, Header, Cell } from '../../Table';
+import { Cell, Header, Table } from '../../Table';
 
 const Code: FunctionComponent = ({ children }) => <code>{children}</code>;
 

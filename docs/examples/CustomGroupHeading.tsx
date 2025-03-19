@@ -1,14 +1,17 @@
 import React from 'react';
 
-import Select, { components, GroupHeadingProps } from 'react-select';
+import EditorPanelIcon from '@atlaskit/icon/glyph/editor/panel';
+import Tooltip from '@atlaskit/tooltip';
+import Select, {
+  components,
+  GroupHeadingProps,
+} from '@douglasgomes98/react-select';
 import {
   ColourOption,
   colourOptions,
   FlavourOption,
   groupedOptions,
 } from '../data';
-import EditorPanelIcon from '@atlaskit/icon/glyph/editor/panel';
-import Tooltip from '@atlaskit/tooltip';
 
 const groupStyles = {
   border: `2px dotted ${colourOptions[2].color}`,

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Select, { components, ControlProps } from 'react-select';
+import Select, { components, ControlProps } from '@douglasgomes98/react-select';
 import { ColourOption, colourOptions } from '../data';
 const controlStyles = {
   border: '1px solid black',

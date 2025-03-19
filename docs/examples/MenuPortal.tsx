@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import Modal from '@atlaskit/modal-dialog';
 import Button from '@atlaskit/button';
-import Select, { MenuPlacement } from 'react-select';
+import Modal from '@atlaskit/modal-dialog';
+import Select, { MenuPlacement } from '@douglasgomes98/react-select';
+import React, { useState } from 'react';
 import { H1, Note } from '../styled-components';
 
 import { colourOptions } from '../data';

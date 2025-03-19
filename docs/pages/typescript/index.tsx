@@ -91,7 +91,7 @@ The \`actionMeta\` parameter is optional. \`ActionMeta\` is a union that is disc
 You can use module augmentation to add custom props to the \`Select\` prop types:
 
 ~~~jsx
-import type {} from 'react-select/base';
+import type {} from '@douglasgomes98/react-select/base';
 // This import is necessary for module augmentation.
 // It allows us to extend the 'Props' interface in the 'react-select/base' module
 // and add our custom property 'myCustomProp' to it.

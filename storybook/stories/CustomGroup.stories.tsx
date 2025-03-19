@@ -1,6 +1,6 @@
+import Select, { components, GroupProps } from '@douglasgomes98/react-select';
 import type { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import Select, { components, GroupProps } from 'react-select';
 
 import { Field } from '../components';
 import {

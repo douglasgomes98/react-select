@@ -1,7 +1,11 @@
 import Tooltip from '@atlaskit/tooltip';
+import Select, {
+  components,
+  OptionProps,
+  StylesConfig,
+} from '@douglasgomes98/react-select';
 import { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import Select, { components, OptionProps, StylesConfig } from 'react-select';
 
 import { Field } from '../components';
 import { ColourOption, colourOptions } from '../data';

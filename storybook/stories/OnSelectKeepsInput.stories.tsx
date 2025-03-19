@@ -1,6 +1,6 @@
+import Select, { InputActionMeta } from '@douglasgomes98/react-select';
 import type { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import Select, { InputActionMeta } from 'react-select';
 
 import { Field } from '../components';
 import { colourOptions } from '../data';

@@ -1,11 +1,11 @@
 /** @jsx jsx */
+import { defaultTheme } from '@douglasgomes98/react-select';
 import { jsx } from '@emotion/react'; // eslint-disable-line no-unused-vars
 import { CSSObject } from '@emotion/serialize';
 import { ReactNode, useState } from 'react';
 import CodeSandboxer, { GitInfo } from 'react-codesandboxer';
-import { CodeBlock } from './markdown/renderer';
 import pkg from '../packages/react-select/package.json';
-import { defaultTheme } from 'react-select';
+import { CodeBlock } from './markdown/renderer';
 import Svg, { SvgProps } from './Svg';
 
 const { colors } = defaultTheme;

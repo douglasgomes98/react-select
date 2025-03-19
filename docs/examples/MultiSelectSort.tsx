@@ -6,13 +6,13 @@ import Select, {
   MultiValueProps,
   OnChangeValue,
   Props,
-} from 'react-select';
+} from '@douglasgomes98/react-select';
 import {
   SortableContainer,
   SortableContainerProps,
   SortableElement,
-  SortEndHandler,
   SortableHandle,
+  SortEndHandler,
 } from 'react-sortable-hoc';
 import { ColourOption, colourOptions } from '../data';
 

@@ -1,5 +1,8 @@
+import {
+  DropdownIndicatorProps,
+  GroupBase,
+} from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { GroupBase, DropdownIndicatorProps } from 'react-select';
 
 export default class DropdownIndicator<
   Option,

@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 import Helmet from 'react-helmet';
-import ExampleWrapper from '../../ExampleWrapper';
-import md from '../../markdown/renderer';
 import {
   AsyncCallbacks,
   AsyncMulti,
   AsyncPromises,
   DefaultOptions,
 } from '../../examples';
+import ExampleWrapper from '../../ExampleWrapper';
+import md from '../../markdown/renderer';
 
 export default function Async() {
   return (
@@ -21,7 +21,7 @@ export default function Async() {
     Use the Async component to load options from a remote source as the user types.
 
     ~~~jsx
-    import Async, { useAsync } from 'react-select/async';
+    import Async, { useAsync } from '@douglasgomes98/react-select/async';
     ~~~
 
     ## Loading Asynchronously

@@ -1,10 +1,14 @@
 import '../styles/tailwind.css';
 
+import type {
+  GroupBase,
+  OptionProps,
+  ValueContainerProps,
+} from '@douglasgomes98/react-select';
+import Select, { components } from '@douglasgomes98/react-select';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import classNames from 'classnames';
 import * as React from 'react';
-import type { GroupBase, OptionProps, ValueContainerProps } from 'react-select';
-import Select, { components } from 'react-select';
 import { omit } from 'remeda';
 
 import { Field } from '../components';

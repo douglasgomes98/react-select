@@ -1,5 +1,5 @@
+import Select, { createFilter } from '@douglasgomes98/react-select';
 import React, { useState } from 'react';
-import Select, { createFilter } from 'react-select';
 import { colourOptions } from '../data';
 import { Note } from '../styled-components';
 

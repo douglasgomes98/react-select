@@ -1,6 +1,6 @@
+import Select, { AriaOnFocus } from '@douglasgomes98/react-select';
 import type { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import Select, { AriaOnFocus } from 'react-select';
 import { ColourOption, colourOptions } from '../data';
 
 export default {

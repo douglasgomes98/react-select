@@ -1,15 +1,15 @@
 /** @jsx jsx */
+import Select, {
+  GroupProps,
+  OptionProps,
+  components as SelectComponents,
+} from '@douglasgomes98/react-select';
 import { jsx } from '@emotion/react';
 import { CSSObject } from '@emotion/serialize';
 import type { ComponentMeta } from '@storybook/react';
 import * as chrono from 'chrono-node';
 import moment, { Moment } from 'moment';
 import { useState } from 'react';
-import Select, {
-  components as SelectComponents,
-  GroupProps,
-  OptionProps,
-} from 'react-select';
 import { Field } from '../components';
 
 export default {

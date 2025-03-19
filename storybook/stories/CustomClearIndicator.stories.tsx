@@ -1,6 +1,9 @@
+import Select, {
+  ClearIndicatorProps,
+  StylesConfig,
+} from '@douglasgomes98/react-select';
 import type { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import Select, { ClearIndicatorProps, StylesConfig } from 'react-select';
 
 import { Field } from '../components';
 import { ColourOption, colourOptions } from '../data';

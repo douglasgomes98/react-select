@@ -1,6 +1,9 @@
 import React from 'react';
 
-import Select, { components, MenuListProps } from 'react-select';
+import Select, {
+  components,
+  MenuListProps,
+} from '@douglasgomes98/react-select';
 import {
   ColourOption,
   colourOptions,

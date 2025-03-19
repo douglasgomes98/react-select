@@ -1,5 +1,5 @@
+import { GroupBase, MenuListProps } from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { GroupBase, MenuListProps } from 'react-select';
 
 export default class MenuList<
   Option,

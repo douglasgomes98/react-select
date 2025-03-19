@@ -1,10 +1,12 @@
 /** @jsx jsx */
-import { ReactNode, useState } from 'react';
-import { jsx } from '@emotion/react';
 import Button from '@atlaskit/button';
+import { jsx } from '@emotion/react';
+import { ReactNode, useState } from 'react';
 
-import Select, { StylesConfig } from 'react-select';
-import { defaultTheme } from 'react-select';
+import Select, {
+  defaultTheme,
+  StylesConfig,
+} from '@douglasgomes98/react-select';
 import { StateOption, stateOptions } from '../data';
 
 const { colors } = defaultTheme;

@@ -41,7 +41,7 @@ Then use it in your app:
 
 ```js
 import React from 'react';
-import Select from 'react-select';
+import Select from '@douglasgomes98/react-select';
 
 const options = [
   { value: 'chocolate', label: 'Chocolate' },
@@ -76,7 +76,7 @@ class App extends React.Component {
 
 ```js
 import React, { useState } from 'react';
-import Select from 'react-select';
+import Select from '@douglasgomes98/react-select';
 
 const options = [
   { value: 'chocolate', label: 'Chocolate' },

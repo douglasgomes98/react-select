@@ -1,11 +1,11 @@
-import type { ComponentMeta } from '@storybook/react';
-import * as React from 'react';
 import Tooltip from '@atlaskit/tooltip';
 import Select, {
   components,
   MultiValueGenericProps,
   StylesConfig,
-} from 'react-select';
+} from '@douglasgomes98/react-select';
+import type { ComponentMeta } from '@storybook/react';
+import * as React from 'react';
 
 import { Field } from '../components';
 import { ColourOption, colourOptions } from '../data';

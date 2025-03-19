@@ -1,7 +1,10 @@
 /** @jsx jsx */
+import Select, {
+  OptionProps,
+  StylesConfig,
+} from '@douglasgomes98/react-select';
 import { jsx } from '@emotion/react';
 import type { ComponentMeta } from '@storybook/react';
-import Select, { OptionProps, StylesConfig } from 'react-select';
 
 import { Field } from '../components';
 import { ColourOption, colourOptions } from '../data';

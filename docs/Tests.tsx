@@ -5,11 +5,11 @@ import React, {
   useState,
 } from 'react';
 
-import Select, { MenuPlacement } from 'react-select';
-import { H1, Note } from './styled-components';
+import Select, { MenuPlacement } from '@douglasgomes98/react-select';
 import { colourOptions, groupedOptions, optionLength } from './data';
+import { H1, Note } from './styled-components';
 
-import * as animatedComponents from 'react-select/animated';
+import * as animatedComponents from '@douglasgomes98/react-select/animated';
 
 interface SuiteProps {
   readonly selectComponent: ComponentType<ComponentProps<typeof Select>>;

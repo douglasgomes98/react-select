@@ -1,5 +1,5 @@
+import { ClearIndicatorProps, GroupBase } from '@douglasgomes98/react-select';
 import { Component } from 'react';
-import { GroupBase, ClearIndicatorProps } from 'react-select';
 
 export default class ClearIndicator<
   Option,

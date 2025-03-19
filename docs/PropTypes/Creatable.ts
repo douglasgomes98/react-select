@@ -1,1 +1,1 @@
-export { CreatableAdditionalProps } from 'react-select/src/useCreatable';
+export { CreatableAdditionalProps } from '@douglasgomes98/react-select/src/useCreatable';

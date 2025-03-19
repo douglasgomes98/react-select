@@ -1,6 +1,6 @@
+import CreatableSelect from '@douglasgomes98/react-select/creatable';
 import type { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import CreatableSelect from 'react-select/creatable';
 
 import { Field } from '../components';
 import { NumberOption, numbers } from '../data';

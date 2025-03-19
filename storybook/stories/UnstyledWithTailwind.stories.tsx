@@ -1,9 +1,9 @@
 import '../styles/tailwind.css';
 
+import Select from '@douglasgomes98/react-select';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import classNames from 'classnames';
 import * as React from 'react';
-import Select from 'react-select';
 
 import { Field } from '../components/field';
 import { defaultArgs } from '../data';

@@ -1,8 +1,8 @@
-import React from 'react';
 import Spinner from '@atlaskit/spinner';
 import Tooltip from '@atlaskit/tooltip';
-import AsyncSelect from 'react-select/async';
-import { LoadingIndicatorProps } from 'react-select';
+import { LoadingIndicatorProps } from '@douglasgomes98/react-select';
+import AsyncSelect from '@douglasgomes98/react-select/async';
+import React from 'react';
 import { ColourOption, colourOptions } from '../data';
 
 const LoadingIndicator = (props: LoadingIndicatorProps<ColourOption>) => {

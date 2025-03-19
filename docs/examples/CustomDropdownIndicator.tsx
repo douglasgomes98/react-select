@@ -1,6 +1,9 @@
-import React from 'react';
 import EmojiIcon from '@atlaskit/icon/glyph/emoji';
-import Select, { components, DropdownIndicatorProps } from 'react-select';
+import Select, {
+  components,
+  DropdownIndicatorProps,
+} from '@douglasgomes98/react-select';
+import React from 'react';
 import { ColourOption, colourOptions } from '../data';
 
 const DropdownIndicator = (

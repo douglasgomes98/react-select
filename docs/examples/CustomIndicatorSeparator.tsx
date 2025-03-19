@@ -1,5 +1,5 @@
+import Select, { IndicatorSeparatorProps } from '@douglasgomes98/react-select';
 import React from 'react';
-import Select, { IndicatorSeparatorProps } from 'react-select';
 import { ColourOption, colourOptions } from '../data';
 
 const indicatorSeparatorStyle = {

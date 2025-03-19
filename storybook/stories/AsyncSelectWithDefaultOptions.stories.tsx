@@ -1,6 +1,6 @@
+import AsyncSelect from '@douglasgomes98/react-select/async';
 import type { ComponentMeta } from '@storybook/react';
 import * as React from 'react';
-import AsyncSelect from 'react-select/async';
 import { Field } from '../components';
 
 import { ColourOption, colourOptions } from '../data';
