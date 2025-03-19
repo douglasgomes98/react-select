@@ -1,6 +1,6 @@
 {
   "name": "@douglasgomes98/react-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Select control built with and for ReactJS",
   "main": "dist/douglasgomes98-react-select.cjs.js",
   "module": "dist/douglasgomes98-react-select.esm.js",
