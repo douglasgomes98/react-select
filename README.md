@@ -35,7 +35,7 @@ Features include:
 The easiest way to use react-select is to install it from npm and build it into your app with Webpack.
 
 ```
-yarn add react-select
+yarn add @douglasgomes98/react-select
 ```
 
 Then use it in your app:
