@@ -1,14 +1,17 @@
 {
-  "name": "react-select",
-  "version": "5.10.1",
+  "name": "@douglasgomes98/react-select",
+  "version": "1.0.0",
   "description": "A Select control built with and for ReactJS",
-  "main": "dist/react-select.cjs.js",
-  "module": "dist/react-select.esm.js",
-  "types": "dist/react-select.cjs.d.ts",
+  "main": "dist/douglasgomes98-react-select.cjs.js",
+  "module": "dist/douglasgomes98-react-select.esm.js",
+  "types": "dist/douglasgomes98-react-select.cjs.d.ts",
   "sideEffects": false,
-  "author": "Jed Watson",
+  "author": "Douglas Gomes <douglasgomes.rr@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/JedWatson/react-select/tree/master/packages/react-select",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasgomes98/react-select.git"
+  },
   "dependencies": {
     "@babel/runtime": "^7.12.0",
     "@emotion/cache": "^11.4.0",
@@ -62,34 +65,34 @@
   },
   "exports": {
     ".": {
-      "module": "./dist/react-select.esm.js",
-      "import": "./dist/react-select.cjs.mjs",
-      "default": "./dist/react-select.cjs.js"
+      "module": "./dist/douglasgomes98-react-select.esm.js",
+      "import": "./dist/douglasgomes98-react-select.cjs.mjs",
+      "default": "./dist/douglasgomes98-react-select.cjs.js"
     },
     "./base": {
-      "module": "./base/dist/react-select-base.esm.js",
-      "import": "./base/dist/react-select-base.cjs.mjs",
-      "default": "./base/dist/react-select-base.cjs.js"
+      "module": "./base/dist/douglasgomes98-react-select-base.esm.js",
+      "import": "./base/dist/douglasgomes98-react-select-base.cjs.mjs",
+      "default": "./base/dist/douglasgomes98-react-select-base.cjs.js"
     },
     "./async": {
-      "module": "./async/dist/react-select-async.esm.js",
-      "import": "./async/dist/react-select-async.cjs.mjs",
-      "default": "./async/dist/react-select-async.cjs.js"
+      "module": "./async/dist/douglasgomes98-react-select-async.esm.js",
+      "import": "./async/dist/douglasgomes98-react-select-async.cjs.mjs",
+      "default": "./async/dist/douglasgomes98-react-select-async.cjs.js"
     },
     "./animated": {
-      "module": "./animated/dist/react-select-animated.esm.js",
-      "import": "./animated/dist/react-select-animated.cjs.mjs",
-      "default": "./animated/dist/react-select-animated.cjs.js"
+      "module": "./animated/dist/douglasgomes98-react-select-animated.esm.js",
+      "import": "./animated/dist/douglasgomes98-react-select-animated.cjs.mjs",
+      "default": "./animated/dist/douglasgomes98-react-select-animated.cjs.js"
     },
     "./creatable": {
-      "module": "./creatable/dist/react-select-creatable.esm.js",
-      "import": "./creatable/dist/react-select-creatable.cjs.mjs",
-      "default": "./creatable/dist/react-select-creatable.cjs.js"
+      "module": "./creatable/dist/douglasgomes98-react-select-creatable.esm.js",
+      "import": "./creatable/dist/douglasgomes98-react-select-creatable.cjs.mjs",
+      "default": "./creatable/dist/douglasgomes98-react-select-creatable.cjs.js"
     },
     "./async-creatable": {
-      "module": "./async-creatable/dist/react-select-async-creatable.esm.js",
-      "import": "./async-creatable/dist/react-select-async-creatable.cjs.mjs",
-      "default": "./async-creatable/dist/react-select-async-creatable.cjs.js"
+      "module": "./async-creatable/dist/douglasgomes98-react-select-async-creatable.esm.js",
+      "import": "./async-creatable/dist/douglasgomes98-react-select-async-creatable.cjs.mjs",
+      "default": "./async-creatable/dist/douglasgomes98-react-select-async-creatable.cjs.js"
     },
     "./package.json": "./package.json"
   }

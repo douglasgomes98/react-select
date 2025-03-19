@@ -1,13 +1,13 @@
 {
-  "name": "@react-select/monorepo",
+  "name": "@douglasgomes98/monorepo",
   "private": true,
   "version": "1.0.0",
   "description": "A Select control built with and for ReactJS",
-  "author": "Jed Watson",
+  "author": "Douglas Gomes <douglasgomes.rr@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JedWatson/react-select.git"
+    "url": "git+https://github.com/douglasgomes98/react-select.git"
   },
   "dependencies": {
     "@babel/core": "^7.19.6",
