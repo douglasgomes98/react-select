@@ -1,16 +1,16 @@
 {
-  "name": "@react-select/generate-magical-types",
+  "name": "@douglasgomes98/react-select-generate-magical-types",
   "main": "dist/generate-magical-types.cjs.js",
   "exports": {
     "./generate": {
-      "module": "./generate/dist/react-select-generate-magical-types-generate.esm.js",
-      "import": "./generate/dist/react-select-generate-magical-types-generate.cjs.mjs",
-      "default": "./generate/dist/react-select-generate-magical-types-generate.cjs.js"
+      "module": "./generate/dist/douglasgomes98-react-select-generate-magical-types-generate.esm.js",
+      "import": "./generate/dist/douglasgomes98-react-select-generate-magical-types-generate.cjs.mjs",
+      "default": "./generate/dist/douglasgomes98-react-select-generate-magical-types-generate.cjs.js"
     },
     "./serialize": {
-      "module": "./serialize/dist/react-select-generate-magical-types-serialize.esm.js",
-      "import": "./serialize/dist/react-select-generate-magical-types-serialize.cjs.mjs",
-      "default": "./serialize/dist/react-select-generate-magical-types-serialize.cjs.js"
+      "module": "./serialize/dist/douglasgomes98-react-select-generate-magical-types-serialize.esm.js",
+      "import": "./serialize/dist/douglasgomes98-react-select-generate-magical-types-serialize.cjs.mjs",
+      "default": "./serialize/dist/douglasgomes98-react-select-generate-magical-types-serialize.cjs.js"
     },
     "./package.json": "./package.json"
   },
